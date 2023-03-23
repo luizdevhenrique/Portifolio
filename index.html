@@ -4,6 +4,17 @@
 <head>
 
 <style>
+
+    #links:hover{
+
+        background-color: rgba(0, 160, 253, 0.795);
+    }
+
+#foto {
+    position: relative;
+    left: 41.8%
+    
+}
     
 h1 {
     color: rgba(0, 255, 170, 0.781);
@@ -19,13 +30,20 @@ h2 {
 }
 
 #links {
-    color: rgb(0, 225, 255);
+    color:rgba(0, 72, 100) ;
     text-decoration: none;
     text-align: center;
     font-family: "Fjalla One variant0", Tofu;
     font-size: x-large;
     letter-spacing: -1px;
-    padding-bottom: 0cap;
+    padding: 1%;
+    border-radius: 8%;
+    border-style: solid;
+    border-color: rgba(0, 60, 255, 0.781);
+    margin: 5%;
+    background-color: rgb(5, 191, 216);
+    margin-left: 15.7%;
+    
 }
 
 
@@ -56,8 +74,10 @@ body {
 <body>
     <a href="#sobre_mim" id="links" >Sobre mim</a>
     <a href="https://www.betrybe.com/" id="links" target="blank">Página que eu gosto</a>
+    <a href="https://www.betrybe.com/" target="_blank" id="links">Página legal</a>
+    <br><br><br>
     <h1 class="meuNome" >Luiz Henrique Ribeiro da Silva</h1>
-<img src="Eu.png" alt="Foto de Perfil" width="300px">
+<img src="Eu.png" alt="Foto de Perfil" id="foto" width="300px">
 <p class="resido"><strong>São Paulo - SP</strong></p>
 <p class="descricao" id="description">Aluno de programação da <strong><em>Trybe!</em></strong> Procuro 
     me desenvolver na área e me tornar um Dev senior. Conhecimento intermediário/avançado
@@ -70,5 +90,4 @@ body {
     <li class="bootstrap">Bootstrap</li>
     <li class="metoAgil">Metodologias ágeis</li>
 </ul>
-<a href="https://www.betrybe.com/" target="_blank">Página legal</a>
 </body>
