@@ -5,7 +5,7 @@
 
     #foto {
 position: relative;
-left: 41.8%
+left: 43.8%
 
 }
 
@@ -33,9 +33,9 @@ padding: 1%;
 border-radius: 8%;
 border-style: solid;
 border-color: rgba(255, 145, 0);
-margin: 5%;
+margin-left: 15%;
 background-color: rgb(255, 145, 0);
-margin-left: 15.7%;
+
 
 }
 
@@ -43,8 +43,9 @@ margin-left: 15.7%;
     #description {
 font-family: "Heebo variant0", Tofu;
 color: rgb(255, 255, 255);
-font-size: large;
+font-size: x-large;
 text-align: center;
+padding: 50px;
 
 }
 
@@ -59,16 +60,13 @@ font-family: 'Rubik', sans-serif;
 
     text-align: center;
     color: rgba(255, 145, 0);
+    padding-top: 10px;
 }
 
-        ul{
+        #lista{
 
     color: white;
     text-align: center;
 }
 
-li{
 
-    color: white;
-    text-align: center;
-}
